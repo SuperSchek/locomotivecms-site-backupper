@@ -2,7 +2,11 @@
 This script will backup all of your sites off of engine and optionally sends a status update via pushbullet everytime it's run. Ideally you'd want to set up a cronjon for this.
 
 ### Installation
-Clone this repo and set the required environment variables in a .env file. Then set up a job in you crontab using
+Clone this repo and set the required environment variables in a .env file. Then set up a job in your crontab.
+This example will run the script on a Raspberry Pi every night at 5 a.m. using ruby 2.4.1 (installed with rvm).
+```
+0 5 * * * /home/pi/.rvm/wrappers/ruby-2.4.1/ruby /home/pi/apps/locomotivecms-site-backupper/script.rb
+```
 
 #### Required environment variables
 ```
