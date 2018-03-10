@@ -23,4 +23,12 @@ Full url to where the backups should be saved. If this is not set, backups will 
 IMPORTANT: THE SCRIPT WILL NEED SUDO PRIVILEGES TO USE THE MV COMMAND>
 
 #### Push notifications
-Optionally, a PUSHBULLET_ACCES_TOKEN can be set in the .env file. This will push a status
+Optionally, a PUSHBULLET_ACCES_TOKEN can be set in the .env file. This will push a status update via pushbullet with the following content:
+
+```
+The following sites were backed up: 
+
+site-one: OK
+site-two: FAIL
+site-three: FAIL
+```
