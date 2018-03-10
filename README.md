@@ -1,5 +1,5 @@
 # LocomotiveCMS Backup Script
-This script will backup all of your sites off of engine and optionally sends a status update via pushbullet everytime it's run. Ideally you'd want to set up a cronjon for this.
+This script will backup all of your sites off of engine and optionally sends a status update via pushbullet everytime it's run. Ideally you'd want to set up a cronjob for this.
 
 ### Installation
 Clone this repo and set the required environment variables in a .env file. Then set up a job in your crontab.
